@@ -20,7 +20,7 @@ private:
 	E* array;
 
 public:
-	// Since template constructors can't be called with arguments, must have default
+	// Constructor
 	InfiniteList(int size = 100) {
 		maxSize = size;
 		listSize = curPos = 0;
